@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test没有实际用处", "test没有实际用处\test没有实际用处.vcxproj", "{43E90AB9-36BD-4982-8330-71DC0A45ADC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43E90AB9-36BD-4982-8330-71DC0A45ADC7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43E90AB9-36BD-4982-8330-71DC0A45ADC7}.Debug|Win32.Build.0 = Debug|Win32
+		{43E90AB9-36BD-4982-8330-71DC0A45ADC7}.Release|Win32.ActiveCfg = Release|Win32
+		{43E90AB9-36BD-4982-8330-71DC0A45ADC7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

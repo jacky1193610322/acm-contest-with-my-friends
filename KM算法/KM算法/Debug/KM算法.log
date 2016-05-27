@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/4/8 15:33:45。
+     1>项目“D:\data\vs\mytest\KM算法\KM算法\KM算法.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\softinstall\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\data\vs\mytest\km算法\km算法\main.cpp(9): warning C4307: “-”: 整型常量溢出
+       Link:
+         C:\Program Files (x86)\softinstall\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\data\vs\mytest\KM算法\Debug\KM算法.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\data\vs\mytest\KM算法\Debug\KM算法.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\data\vs\mytest\KM算法\Debug\KM算法.lib" /MACHINE:X86 Debug\main.obj
+         Debug\main1.obj
+     1>main1.obj : error LNK2005: "int n" (?n@@3HA) 已经在 main.obj 中定义
+     1>main1.obj : error LNK2005: "int * lx" (?lx@@3PAHA) 已经在 main.obj 中定义
+     1>main1.obj : error LNK2005: "int * ly" (?ly@@3PAHA) 已经在 main.obj 中定义
+     1>D:\data\vs\mytest\KM算法\Debug\KM算法.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“D:\data\vs\mytest\KM算法\KM算法\KM算法.vcxproj”(Build 个目标)的操作 - 失败。
+
+Build FAILED.
+
+已用时间 00:00:03.42
